@@ -1,0 +1,126 @@
+body {
+    position: static;
+    font-family: arial,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color:  grey;
+    background: white;
+    box-sizing: border-box;
+    width: 1287px;
+    height: 4169px;
+
+}
+
+#page {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    line-height: 27px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-page {
+   position: fixed;
+   top: 0;
+   margin: 0;
+   width: 100%;
+   padding: 20px 0;
+   z-index: 100; 
+   background: white;
+   box-shadow: 0px 1px 70px 0px rgba(0, 0,0.15);
+   box-sizing: border-box;
+}
+
+.container  {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    box-sizing: border-box;
+    
+}
+
+.row::before {
+    display: table;
+    box-sizing: border-box;
+    content: "";
+}
+
+.nav-row-1 {
+    position: relative;
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.nav-logo {
+    position: static;
+    display: block;
+    box-sizing: border-box;
+    line-height: 34px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+li {
+    float: left;
+    
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.row::after {
+    clear: both;
+}
+
+.cover-header {
+    position: relative; 
+    box-sizing: border-box; 
+    background-image: url("bg-akuantri-home1.jpg");
+    padding-top: 51px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
