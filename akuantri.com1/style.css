@@ -1,126 +1,65 @@
-body {
-    position: static;
-    font-family: arial,sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.7;
-    color:  grey;
-    background: white;
-    box-sizing: border-box;
-    width: 1287px;
-    height: 4169px;
-
-}
-
 #page {
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-    line-height: 27px;
-    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    background: white;
+    box-shadow: 3px 10px #c7c0a9;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
+    display: flex;
+
 }
 
-.nav-page {
-   position: fixed;
-   top: 0;
-   margin: 0;
-   width: 100%;
-   padding: 20px 0;
-   z-index: 100; 
-   background: white;
-   box-shadow: 0px 1px 70px 0px rgba(0, 0,0.15);
-   box-sizing: border-box;
-}
-
-.container  {
-    position: relative;
-    box-sizing: border-box;
-    max-width: 1140px;
+.nav-item {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    width: 100%;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
-    box-sizing: border-box;
-    
-}
-
-.row::before {
-    display: table;
-    box-sizing: border-box;
-    content: "";
-}
-
-.nav-row-1 {
-    position: relative;
-    display: block;
-    padding-right: 15px;
-    padding-left: 15px;
-    box-sizing: border-box;
-}
-
-.nav-logo {
-    position: static;
-    display: block;
-    box-sizing: border-box;
-    line-height: 34px;
-}
-
-.ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: aliceblue;
-}
-
-li {
-    float: left;
-    
-    
-}
-
-li a {
-    display: block;
-    color: black;
+    align-items: center;
     text-align: center;
-    padding: 14px 16px;
+}
+
+.nav-item li a {
     text-decoration: none;
+    color: black;
+}
+
+.nav-item li a:hover {
+    color: #3cd42f;
+}
+
+.active {
+    color: #3cd42f;
+}
+
+.nav-item li {
+    display: flex;
+    flex: 1;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-bar {
+    left: 10px;
 }
 
 .button {
-    background-color: green;
-    border: none;
+    background-color: #3cd42f;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #3cd42f;
 }
 
-.row::after {
-    clear: both;
+.header-image {
+    width: 100%;
+    height: 350px;
+
+    overflow: hidden;
 }
-
-.cover-header {
-    position: relative; 
-    box-sizing: border-box; 
-    background-image: url("bg-akuantri-home1.jpg");
-    padding-top: 51px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-
-
-
