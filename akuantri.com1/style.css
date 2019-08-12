@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Navigasi Bar */
 .nav-bar {
     background: white;
     box-shadow: 3px 10px #c7c0a9;
@@ -11,6 +12,7 @@
     left: 0;
     width: 100%;
     display: flex;
+    z-index: 100;
 
 }
 
@@ -57,6 +59,8 @@
     border: 1px solid #3cd42f;
 }
 
+/* Header */
+
 .header-image {
     width: 100%;
     height: 650px;
@@ -64,7 +68,7 @@
     overflow: hidden;
 }
 
-
+/* Left Text */
 
 .akuantri {
     position: absolute;
@@ -107,4 +111,200 @@ p {
     left: 60%;
     width: 195px;
     height: 80px;
+}
+
+/* Left and Right Content */
+
+.split {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 15;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    padding-left: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+}
+
+.content {
+    position: relative;
+    font-size: 34px;
+    top: 50%;
+    left: 20px;
+}
+
+.split p {
+    position: relative;
+    top: 50%;
+    left: 100px;
+}
+
+.row {
+    width: 50%;
+    position: absolute;
+    top: 20;
+    text-align: justify;
+}
+
+/* Layanan Kesehatan */
+
+.check img {
+    position: absolute;
+    width: 50px;
+    top: 200px;
+    left: 20px;
+}
+
+
+.content1 h3  {
+    position: absolute;
+    margin-top: 32%;
+    left: 15%;
+}
+
+.content1 p {
+    position: absolute;
+    color: #777; 
+    text-align: justify;
+    margin-top: 37%;
+    margin-left: 19%;
+    text-indent: 1px;
+    font-size: 15px;
+}
+
+/* Berbagai Tiket Box */
+
+.icon1 img {
+    position: absolute;
+    width: 50px;
+    margin-top: 25%;
+}
+
+.content2 h3 {
+    position: absolute;
+    margin-top: 57.5%;
+    left: 15%;  
+}
+
+.content2 p {
+    position: absolute;
+    color: #777;
+    text-align: justify;
+    text-indent: -1px;
+    margin-top: 62.5%;
+    margin-left: 19%;
+    font-size: 15px;
+}
+
+/* Berbagai Restaurant */
+
+.icon2 img {
+    position: absolute;
+    width: 50px;
+    margin-top: 50%;
+}
+
+.content3 h3 {
+    position: absolute;
+    margin-top: 83%;
+    left: 15%;
+}
+
+.content3 p {
+    position: absolute;
+    color: grey;
+    text-align: justify;
+    text-indent: 1px;
+    margin-top: 88%;
+    margin-left: 19%;
+    font-size: 15px;
+}
+
+/* Salon atau Barbershop */
+
+.icon3 img {
+    position: absolute;
+    width: 50px;
+    margin-top: 75%;
+}
+
+.content4 h3 {
+    position: absolute;
+    margin-top: 108%;
+    left: 15%; 
+}
+
+.content4 p {
+    position: absolute;
+    color: grey;
+    text-align: justify;
+    text-indent: 1px;
+    margin-top: 113%;
+    margin-left: 19%;
+    font-size: 15px;
+}
+
+/* Layanan Pemerintahan atau Bank */
+
+.icon4 img {
+    position: absolute;
+    width: 50px;
+    margin-top: 100%;
+}
+
+.content5 h3 {
+    position: absolute;
+    margin-top: 133%;
+    left: 15%;
+}
+
+
+.content5 p {
+    position: absolute;
+    color: grey;
+    text-align: justify;
+    text-indent: -1px;
+    margin-top: 138%;
+    margin-left: 19%;
+    font-size: 15px;
+}
+
+/* Jenis Antrian Lain */
+
+.icon5 img {
+    position: absolute;
+    width: 50px;
+    margin-top: 125%;
+}
+
+.content6 h3 {
+    position: absolute;
+    margin-top: 158%;
+    left: 15%;
+}
+
+.content6 p {
+    position: absolute;
+    color: grey;
+    text-align: justify;
+    text-indent: -1px;
+    margin-top: 162.5%;
+    margin-left: 19%;
+    font-size: 15px;
+}
+
+/* Foto Aplikasi Akuantri */
+
+.centered img {
+    position: relative;
+    margin-left: 120%;
+    margin-top: -30%;
+    width: 100%;
 }
